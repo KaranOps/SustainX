@@ -22,7 +22,7 @@
 
     /* Font and Typography */
     --biggestFOntSize: 2.5rem;
-    --h1FontSize: rem;
+    --h1FontSize: 1.5rem;
     --h2FontSize: 1.25rem;
     --h3FontSize: 1rem;
     --normalFontSize: .938rem;
@@ -108,4 +108,29 @@ body {
 /* Hide the scroll bar */
 ::-webkit-scrollbar {
     display: none;
+}
+
+/* //Media QUeries ============> */
+@media screen and (max-width:990px) {
+    .heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:918px) {
+    .heading {
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .heading {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 1rem;
+    }
 }

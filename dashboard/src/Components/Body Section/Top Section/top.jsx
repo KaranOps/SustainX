@@ -75,7 +75,7 @@ const top = () => {
                             <img src={img} alt="Image Name" />
                         </div>
 
-                        {/* <div className="sideBarCard">
+                        <div className="sideBarCard">
                             <span className="material-symbols-outlined icon">
                                 help
                             </span>
@@ -87,7 +87,7 @@ const top = () => {
                                 <p>Having trouble with SustainX, please contact us for more questions.</p>
                                 <button className="btn">Go to help center</button>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
